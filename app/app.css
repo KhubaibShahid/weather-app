@@ -1,0 +1,16 @@
+.main {
+    height: 100svh;
+    font-family: sans-serif;
+}
+
+.box {
+    max-width: 450px;
+    min-height: 150px;
+}
+
+
+@media only screen and (max-width : 350px) {
+    .section1 {
+        flex-direction: column;
+    }
+}
